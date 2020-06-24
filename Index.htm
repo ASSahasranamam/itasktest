@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>AI Project Management | iTaskSystems</title>
+<meta charset="UTF-8">
+<link rel = "icon" href ="titleicon.png" type = "image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+body {
+  background-image:url(background.webp);
+  background-repeat: no-repeat;
+  min-height: 679px;
+  background-size: cover;
+}
+</style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card ">
+ <div class="w3-bar  w3-card w3-padding-large w3-left">
+ 	 <i class="fa fa-linkedin fa-lg w3-hover-opacity"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <i class="fa fa-twitter fa-lg w3-hover-opacity"></i>
+		<select id="lang" name="Language" style="float:right;">
+		    <option value="volvo">EN</option>
+		    <option value="saab">DE</option>
+  		</select>
+  </div>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <img src="company.png" class="w3-bar-item w3-padding-small " width="180px" height="80px"></img>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="margin-top: 16px !important;">Home</a>
+    <a href="#keyfeatures" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="margin-top: 16px !important;">Key Features</a>
+    <a href="#simplebenefits" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="margin-top: 16px !important;">Benefits</a>
+     <div class="w3-dropdown-hover w3-hide-small" style="margin-top: 16px !important;">
+	      <button class="w3-padding-large w3-button" title="Use Case">Use Case <i class="fa fa-caret-down"></i></button>
+	      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	        <a href="#fieldservice" class="w3-bar-item w3-button">Field Service</a>
+	        <a href="#pms" class="w3-bar-item w3-button">Preventive Maintenance Solution</a>
+	      </div>
+    </div>
+    <a href="#compatibility" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="margin-top: 16px !important;">Compatiblity</a>
+	<a href="#contactus" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="margin-top: 16px !important;">Contact Us</a>
+	<a href="https://www1.executesimple.com/" target= "_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="margin-top: 16px !important;">Login  iTs 4.0</a>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px;background-color: #262626 !important;">
+  <a href="#keyfeatures" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Key Features</a>
+  <a href="#simplebenefits" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Simple Benefits</a>
+  <a href="#fieldservice" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Field Service</a>
+  <a href="#pms" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Preventive Maintenance Solution</a>
+  <a href="#compatibility" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Compatiblity</a>
+  <a href="#contactus" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+</div>
+
+
+
+<!-- Home-->
+  <div class="w3-display-container w3-center" >
+  <br><br><br><br><br>
+    <img src="slide1.jpg" alt="Home" style="width:95%">
+  </div>
+
+  <!-- Key Features-->
+  <div class="w3-display-container w3-center" id="keyfeatures">
+  <br><br><br><br><br>
+    <img src="slide2.jpg" alt="Key features" style="width:80%">
+  </div>
+
+<!-- Simple Benefits-->
+  <div class="w3-display-container w3-center" id="simplebenefits">
+  <br><br><br><br><br>
+    <img src="slide3.jpg" alt="simple benefits" style="width:80%">
+  </div>
+
+<!-- Field Service-->
+  <div class="w3-display-container w3-center" id="fieldservice">
+  <br><br><br><br><br>
+    <img src="slide4.jpg" alt="field service" style="width:80%">
+    <br><br>
+    <img src="slide5.jpg" alt="field service" style="width:80%">
+    <br><br>
+    <img src="slide6.jpg" alt="field service" style="width:80%">
+  </div>
+
+  <!-- PMS-->
+    <div class="w3-display-container w3-center" id="pms">
+    <br><br><br><br><br>
+      <img src="slide7.jpg" alt="pms" style="width:80%">
+      <br><br>
+      <img src="slide8.jpg" alt="pms" style="width:80%">
+      <br><br>
+      <img src="slide9.jpg" alt="pms" style="width:80%">
+      <br><br>
+      <img src="slide10.jpg" alt="pms" style="width:80%">
+  </div>
+
+  <!-- Compatibility-->
+    <div class="w3-display-container w3-center" id="compatibility">
+    <br><br><br><br><br>
+      <img src="slide11.jpg" alt="compatibility" style="width:80%">
+  </div>
+
+ <!-- Contact Us-->
+    <div class="w3-display-container w3-center" id="contactus">
+    <br>
+	<!--<h2 class="w3-wide w3-center" style="font-family:verdana;">REQUEST DEMO</h2>-->
+  </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+<div style="background-color:#1fd4a4;">
+    <a class="w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-button w3-medium">Home</a><br>
+    <a href="#keyfeatures" class="w3-button w3-medium">Key Features</a><br>
+    <a href="#simplebenefits" class="w3-button w3-medium">Benefits</a><br>
+     <div class="w3-dropdown-hover">
+	      <button class="w3-button w3-medium" title="Use Case">Use Case <i class="fa fa-caret-down"></i></button>
+	      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	        <a href="#fieldservice" class="w3-button w3-medium">Field Service</a>
+	        <a href="#pms" class="w3-button w3-medium">Preventive Maintenance Solution</a>
+	      </div>
+    </div><br>
+    <a href="#compatibility" class="w3-button w3-medium">Compatiblity</a><br>
+	<a href="#contactus" class="w3-button w3-medium">Contact Us</a>
+
+</div>
+<div>
+  <p class="w3-medium">© 2018 iTaskSystems
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#" style="text-decoration:none;">impressum</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#"  style="text-decoration:none;">Privacy Policy</a></p>
+  </div>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
